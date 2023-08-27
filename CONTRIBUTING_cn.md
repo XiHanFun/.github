@@ -9,7 +9,8 @@
 - 注意安装 git 的时候记得勾选将 git 所在目录添加到系统环境变量；
 
 <details>
-<summary>DotNet项目</summary>
+<summary>1.DotNet项目</summary>
+
 
 - 安装 Visual Studio 2022；
 
@@ -146,8 +147,6 @@ Controller
 > C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Web\ASP.NET\1033\WebApiEmptyController
 
 </details>
-
-
 
 <details>
 <summary>2.Vue项目</summary>
