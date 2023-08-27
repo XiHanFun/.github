@@ -1,3 +1,5 @@
+[中文](CODE_OF_CONDUCT_cn.md)
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

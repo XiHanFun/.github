@@ -1,3 +1,5 @@
+[English](CONTRIBUTING.md)
+
 # 如何为项目贡献代码
 
 ## 一、准备工作

@@ -1,3 +1,5 @@
+[中文](CONTRIBUTING_cn.md)
+
 # How to Contribute Code to Project
 
 ## I. Prerequisites
