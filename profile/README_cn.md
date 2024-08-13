@@ -1,3 +1,5 @@
+![LOGO](./assets/LOGO.png)
+
 [English](README.md)
 
 # 曦寒懿 开源社区
