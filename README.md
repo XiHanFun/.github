@@ -1,3 +1,5 @@
+![LOGO](./assets/LOGO.png)
+
 [中文](README_cn.md)
 
 # XiHanFun Open Source Organization
