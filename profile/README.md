@@ -54,8 +54,8 @@ All repository for XiHanFun open source organization must be licensed under [The
 
 If you have any questions or suggestions, please contact us through the following ways:
 
-- Email: me@xihan.fun
-- Organization website: https://www.xihan.fun
-- Organization documentation: https://docs.xihan.fun
+- Email: me@xihanfun.com
+- Organization website: https://www.xihanfun.com
+- Organization documentation: https://docs.xihanfun.com
 
 Thank you for your support and participation. Let us promote open source culture and technology together and create a better future!
