@@ -54,8 +54,8 @@
 
 如果您有任何问题或建议，欢迎通过以下方式联系我们：
 
-- 邮箱：me@xihan.fun
-- 社区官网：https://www.xihan.fun
-- 社区文档：https://docs.xihan.fun
+- 邮箱：me@xihanfun.com
+- 社区官网：https://www.xihanfun.com
+- 社区文档：https://docs.xihanfun.com
 
 感谢您的支持和参与，让我们一起推广开源文化和技术，创造更美好的未来！
