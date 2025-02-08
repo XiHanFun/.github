@@ -1,81 +1,220 @@
-[English](CODE_OF_CONDUCT.md)
+[English](CONTRIBUTING.md)
 
-# 贡献者公约
+# 如何为项目贡献代码
 
-## 我们的承诺
+## 一、准备工作
 
-身为社区成员、贡献者和领袖，我们承诺使社区参与者不受骚扰，无论其年龄、体型、可见或不可见的缺陷、族裔、性征、性别认同和表达、经验水平、教育程度、社会与经济地位、国籍、相貌、种族、种姓、肤色、宗教信仰、性倾向或性取向如何。
+- 安装 Git；
 
-我们承诺以有助于建立开放、友善、多样化、包容、健康社区的方式行事和互动。
+- 安装 Sourcetree，这个工具是 git 的一种图形化界面；
 
-## 我们的准则
+- 注意安装 git 的时候记得勾选将 git 所在目录添加到系统环境变量；
 
-有助于为我们的社区创造积极环境的行为例子包括但不限于：
+<details>
+<summary>1.DotNet项目</summary>
 
-- 表现出对他人的同情和善意
-- 尊重不同的主张、观点和感受
-- 提出和大方接受建设性意见
-- 承担责任并向受我们错误影响的人道歉
-- 注重社区共同诉求，而非个人得失
 
-不当行为例子包括：
+- 安装 Visual Studio 2022；
 
-- 使用情色化的语言或图像，及性引诱或挑逗
-- 嘲弄、侮辱或诋毁性评论，以及人身或政治攻击
-- 公开或私下的骚扰行为
-- 未经他人明确许可，公布他人的私人信息，如物理或电子邮件地址
-- 其他有理由认定为违反职业操守的不当行为
+- 安装  Visual Studio 2022 的 CodeMaid 扩展插件，这个插件可以自动格式化代码；
 
-## 责任和权力
+- `若有新功能开发`，请添加文件头，这在后续修改代码文件或多人合作项目时有莫大的好处。如下为我的示例：
 
-社区领袖有责任解释和落实我们所认可的行为准则，并妥善公正地对他们认为不当、威胁、冒犯或有害的任何行为采取纠正措施。
+```csharp
+#region <<版权版本注释>>
 
-社区领导有权力和责任删除、编辑或拒绝或拒绝与本行为准则不相符的评论（comment）、提交（commits）、代码、维基（wiki）编辑、议题（issues）或其他贡献，并在适当时机知采取措施的理由。
+// ----------------------------------------------------------------
+// Copyright ©2024 ZhaiFanhua All Rights Reserved.
+// Licensed under the MIT License. See LICENSE in the project root for license information.
+// FileName:ChatHub
+// Guid:ee669dee-30c7-4d21-8eb4-f24d8dc0f44c
+// Author:zhaifanhua
+// Email:me@zhaifanhua.com
+// CreatedTime:2024-04-16 上午 03:59:25
+// ----------------------------------------------------------------
 
-## 适用范围
+#endregion <<版权版本注释>>
+```
 
-本行为准则适用于所有社区场合，也适用于在公共场所代表社区时的个人。
+下面就来说说怎么创建并修改默认模板。  
 
-代表社区的情形包括使用官方电子邮件地址、通过官方社交媒体帐户发帖或在线上或线下活动中担任指定代表。
+#### 1.新建模板文件
 
-## 监督
+> 注意：我所用环境为 Visual Studio 2022，以下模板适合 C#10 新语法，旧语法及旧版本以类似方法修改。
 
-辱骂、骚扰或其他不可接受的行为可通过 [me@xihanfun.com] 向负责监督的社区领袖报告。 所有投诉都将得到及时和公平的审查和调查。
+在空白目录创建以下三个文件：
 
-所有社区领袖都有义务尊重任何事件报告者的隐私和安全。
+Class.cs
 
-## 处理方针
+```csharp
+#region <<版权版本注释>>
 
-社区领袖将遵循下列社区处理方针来明确他们所认定违反本行为准则的行为的处理方式：
+// ----------------------------------------------------------------
+// Copyright ©$year$ ZhaiFanhua All Rights Reserved.
+// Licensed under the MIT License. See LICENSE in the project root for license information.
+// FileName:$safeitemname$
+// Guid:$guid1$
+// Author:$username$
+// Email:me@zhaifanhua.com
+// CreateTime:$time$
+// ----------------------------------------------------------------
 
-### 1. 纠正
+#endregion <<版权版本注释>>
 
-**社区影响**：使用不恰当的语言或其他在社区中被认定为不符合职业道德或不受欢迎的行为。
+namespace $rootnamespace$;
 
-**处理意见**：由社区领袖发出非公开的书面警告，明确说明违规行为的性质，并解释举止如何不妥。或将要求公开道歉。
+/// <summary>
+/// $safeitemrootname$
+/// </summary>
+public class $safeitemrootname$
+{
+}
+```
 
-### 2. 警告
+Controller.cs `这里仅为ApiController`
 
-**社区影响**：单个或一系列违规行为。
+```csharp
+#region <<版权版本注释>>
 
-**处理意见**：警告并对连续性行为进行处理。在指定时间内，不得与相关人员互动，包括主动与行为准则执行者互动。这包括避免在社区场所和外部渠道中的互动。违反这些条款可能会导致临时或永久封禁。
+// ----------------------------------------------------------------
+// Copyright ©$year$ ZhaiFanhua All Rights Reserved.
+// Licensed under the MIT License. See LICENSE in the project root for license information.
+// FileName:$safeitemname$
+// Guid:$guid1$
+// Author:$username$
+// Email:me@zhaifanhua.com
+// CreateTime:$time$
+// ----------------------------------------------------------------
 
-### 3. 临时封禁
+#endregion <<版权版本注释>>
 
-**社区影响**: 严重违反社区准则，包括持续的不当行为。
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
-**处理意见**: 在指定时间内，暂时禁止与社区进行任何形式的互动或公开交流。在此期间，不得与相关人员进行公开或私下互动，包括主动与行为准则执行者互动。违反这些条款可能会导致永久封禁。
+namespace $rootnamespace$;
 
-### 4. 永久封禁
+/// <summary>
+/// $safeitemrootname$
+/// </summary>
+[Route("api/[controller]")]
+[ApiController]
+public class $safeitemname$ : ControllerBase
+{
+}
+```
 
-**社区影响**：行为模式表现出违反社区准则，包括持续的不当行为、骚扰个人或攻击或贬低某个类别的个体。
+Interface.cs
 
-**处理意见**：永久禁止在社区内进行任何形式的公开互动。
+```csharp
+#region <<版权版本注释>>
 
-## 参见
+// ----------------------------------------------------------------
+// Copyright ©$year$ ZhaiFanhua All Rights Reserved.
+// Licensed under the MIT License. See LICENSE in the project root for license information.
+// FileName:$safeitemname$
+// Guid:$guid1$
+// Author:$username$
+// Email:me@zhaifanhua.com
+// CreateTime:$time$
+// ----------------------------------------------------------------
 
-本行为准则改编自 [Contributor Covenant](https://www.contributor-covenant.org/) 2.1 版, 参见 https://www.contributor-covenant.org/version/2/1/code_of_conduct.html。
+#endregion <<版权版本注释>>
 
-社区处理方针灵感来源于 [Mozilla’s code of conduct enforcement ladder](https://github.com/mozilla/diversity)。
+namespace $rootnamespace$;
 
-有关本行为准则的常见问题的答案，参见 https://www.contributor-covenant.org/faq。 其他语言翻译参见 https://www.contributor-covenant.org/translations。
+/// <summary>
+/// $safeitemrootname$
+/// </summary>
+public interface $safeitemrootname$
+{
+}
+```
+
+#### 2.找到模板目录并复制
+
+例如安装的 Visual Studio 2022 在 C 盘，则对应的模板目录在：
+
+Class
+
+> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\CSharp\Code\2052\Class
+> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Code\1033\Class
+
+Interface
+
+> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\CSharp\Code\2052\Interface
+> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Code\1033\Interface
+
+Controller
+
+> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Web\ASP.NET\1033\WebApiEmptyController
+
+</details>
+
+<details>
+<summary>2.Vue项目</summary>
+
+- 安装 Visual Studio Code；
+
+- 安装 Visual Studio Code 的 Prettier - Code formatter 扩展插件，这个插件可以自动格式化代码；
+
+</details>
+
+## 二、贡献代码
+
+### 1. 新建自己的分支（Fork）
+
+将本项目仓库 fork 到自己的 git 仓库中。
+
+### 2. 克隆（Clone）
+
+将已经 fork 的仓库 clone 到自己的本地 PC。
+
+### 3. 创建本地分支
+
+如果想要在本项目上做自己的开发，最好创建属于自己的项目分支，如果是直接贡献代码，那么可以直接在 dev 分支上进行操作。
+
+### 4. 开发
+
+1. 发现了一个小 Bug 并进行修改。
+2. 在打开的 Issues 中选择功能并进行开发。
+
+### 5. 提交（Commit）
+
+向本地仓库提交 Bug。
+
+这里是 Git 提交信息前缀规则：
+
+| 前缀   | 描述                                      | 示例                                        |
+|--------|-------------------------------------------|---------------------------------------------|
+| **feat** | 新功能（feature）                        | `feat: add login page`                      |
+| **fix**  | 修复 Bug                                  | `fix: resolve issue with user authentication` |
+| **docs** | 文档修改                                  | `docs: update README with installation instructions` |
+| **style** | 代码风格（不影响功能的改动）            | `style: format code with Prettier`          |
+| **refactor** | 代码重构（不涉及功能和修复）            | `refactor: refactor the authentication module` |
+| **perf** | 性能优化                                  | `perf: optimize image loading speed`        |
+| **test** | 添加或修改测试                            | `test: add unit tests for login functionality` |
+| **chore** | 杂项工作（构建任务、工具配置等）         | `chore: update dependencies`                |
+| **ci**  | 持续集成相关修改                          | `ci: update GitHub Actions workflow`        |
+| **build** | 构建相关修改（影响构建系统或依赖）      | `build: update webpack config for production build` |
+
+这种方式便于清晰区分每种提交的目的和用途。
+
+### 6. 保持本地仓库最新
+
+在准备发起 Pull Request 之前，需要同步原仓库最新的代码，记得检查目前的项目是否是最新的版本。
+
+### 7. 推送到远程仓库（Push）
+
+push 到开发者自己的远程仓库中。
+
+### 8. 发起并完成合并请求（Pull Request）
+
+在 git 仓库中选择自己修改了的分支，点击 create pull request 按钮发起 pull request。
+
+
+
+## 三、提交代码的一些约定
+
+发起请求成功后，本项目维护人就可以看到你提交的代码。pull request如果被同意，你的代码就会被合并到仓库中。这样一次pull request就成功了。
+
+至此，我们就完成了一次代码贡献的过程。
