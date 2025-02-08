@@ -171,7 +171,24 @@ If you want to develop your own project based on this project, it is best to cre
 
 ### 5. Commit
 
-Commit the bug fix to the local repository.
+Submit bugs to your local repository.
+
+Here are the Git commit message prefix rules:
+
+| Prefix | Description | Example |
+|--------|-------------------------------------------|---------------------------------------------|
+| **feat** | New feature | `feat: add login page` |
+| **fix** | Bug fix | `fix: resolve issue with user authentication` |
+| **docs** | Documentation changes | `docs: update README with installation instructions` |
+| **style** | Code style (non-functional changes) | `style: format code with Prettier` |
+| **refactor** | Code refactoring (non-functional and non-fix) | `refactor: refactor the authentication module` |
+| **perf** | Performance optimization | `perf: optimize image loading speed` |
+| **test** | Add or modify tests | `test: add unit tests for login functionality` |
+| **chore** | Miscellaneous work (build tasks, tool configuration, etc.) | `chore: update dependencies` |
+| **ci** | Continuous integration related changes | `ci: update GitHub Actions workflow` |
+| **build** | Build related changes (affecting the build system or dependencies) | `build: update webpack config for production build` |
+
+This approach makes it easy to clearly distinguish the purpose and use of each commit.
 
 ### 6. Keep the Local Repository Up-to-Date
 
