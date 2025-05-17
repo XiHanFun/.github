@@ -81,9 +81,6 @@ Controller.cs `Here, only ApiController is used.`
 
 #endregion <<Copyright and Version>>
 
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-
 namespace $rootnamespace$;
 
 /// <summary>
@@ -175,18 +172,18 @@ Submit bugs to your local repository.
 
 Here are the Git commit message prefix rules:
 
-| Prefix | Description | Example |
-|--------|-------------------------------------------|---------------------------------------------|
-| **feat** | New feature | `feat: add login page` |
-| **fix** | Bug fix | `fix: resolve issue with user authentication` |
-| **docs** | Documentation changes | `docs: update README with installation instructions` |
-| **style** | Code style (non-functional changes) | `style: format code with Prettier` |
-| **refactor** | Code refactoring (non-functional and non-fix) | `refactor: refactor the authentication module` |
+| prefix | description | example |
+| --- | --- | --- |
+| **feat** | New Feature | `feat: add login page` |
+| **fix** | Bug fixes | `fix: resolve issue with user authentication` |
+| **docs** | Document Modifications | `docs: update README with installation instructions` |
+| **style** | Code style (changes that don't affect functionality) | `style: format code with Prettier` |
+| **refactor** | Code refactoring (no features and fixes) | `refactor: refactor the authentication module` |
 | **perf** | Performance optimization | `perf: optimize image loading speed` |
 | **test** | Add or modify tests | `test: add unit tests for login functionality` |
-| **chore** | Miscellaneous work (build tasks, tool configuration, etc.) | `chore: update dependencies` |
-| **ci** | Continuous integration related changes | `ci: update GitHub Actions workflow` |
-| **build** | Build related changes (affecting the build system or dependencies) | `build: update webpack config for production build` |
+| **chore** | Miscellaneous work (build tasks, tool configurations, etc.) | `chore: update dependencies` |
+| **there** | Continuous integration related modifications | `ci: update GitHub Actions workflow` |
+| **build** | Build-related changes (affecting the build system or dependencies) | `build: update webpack config for production build` |
 
 This approach makes it easy to clearly distinguish the purpose and use of each commit.
 

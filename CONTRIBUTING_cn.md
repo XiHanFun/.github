@@ -88,9 +88,6 @@ Controller.cs `这里仅为ApiController`
 
 #endregion <<版权版本注释>>
 
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-
 namespace $rootnamespace$;
 
 /// <summary>
