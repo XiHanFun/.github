@@ -81,9 +81,6 @@ Controller.cs `Here, only ApiController is used.`
 
 #endregion <<Copyright and Version>>
 
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-
 namespace $rootnamespace$;
 
 /// <summary>
