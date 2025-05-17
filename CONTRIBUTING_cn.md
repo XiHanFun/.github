@@ -184,18 +184,19 @@ Controller
 
 这里是 Git 提交信息前缀规则：
 
-| 前缀   | 描述                                      | 示例                                        |
-|--------|-------------------------------------------|---------------------------------------------|
-| **feat** | 新功能（feature）                        | `feat: add login page`                      |
-| **fix**  | 修复 Bug                                  | `fix: resolve issue with user authentication` |
-| **docs** | 文档修改                                  | `docs: update README with installation instructions` |
-| **style** | 代码风格（不影响功能的改动）            | `style: format code with Prettier`          |
-| **refactor** | 代码重构（不涉及功能和修复）            | `refactor: refactor the authentication module` |
-| **perf** | 性能优化                                  | `perf: optimize image loading speed`        |
-| **test** | 添加或修改测试                            | `test: add unit tests for login functionality` |
-| **chore** | 杂项工作（构建任务、工具配置等）         | `chore: update dependencies`                |
-| **ci**  | 持续集成相关修改                          | `ci: update GitHub Actions workflow`        |
-| **build** | 构建相关修改（影响构建系统或依赖）      | `build: update webpack config for production build` |
+| 前缀     | 描述                                                         | 示例                                               |
+| -------- | ------------------------------------------------------------ | -------------------------------------------------- |
+| feat     | 新功能增加（feature）                                        | feat: add user login feature                       |
+| fix      | 修复BUG                                                      | fix: correct user authentication                   |
+| refactor | 代码重构（既不是新增功能，也不是修复 Bug）                   | refactor: simplify user validation logic           |
+| perf     | 性能优化                                                     | perf(core): optimize virtual DOM diffing algorithm |
+| docs     | 文档/注释                                                    | docs: update API documentation                     |
+| chore    | 依赖更新/脚手架配置修改等                                    | chore: upgrade React to the latest version         |
+| revert   | 代码撤销修改                                                 | revert: revert commit 12345abc                     |
+| style    | 代码风格相关无影响运行结果的                                 | style: format code with prettier                   |
+| test     | 测试相关                                                     | test: add unit tests for login feature             |
+| build    | 影响构建系统或外部依赖的更改（例如：gulp，broccoli，npm）    | build: update webpack config                       |
+| ci       | 持续集成的配置文件和脚本的变动（例如：Travis，Circle，BrowserStack，SauceLabs） | ci: update Travis configuration                    |
 
 这种方式便于清晰区分每种提交的目的和用途。
 
