@@ -2,6 +2,8 @@
 
 [中文](README_cn.md)
 
+[曦寒懿官方交流群](https://qm.qq.com/q/qYp1Urv3z2) 462371834
+
 # XiHanFun Open Source Organization
 
 Welcome to the XiHanFun Open Source Organization! We are a organization dedicated to promoting open source culture and technology, providing an open, friendly, inclusive, and collaborative environment for developers, designers, and technology enthusiasts.
