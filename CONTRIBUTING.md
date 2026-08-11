@@ -4,148 +4,16 @@
 
 ## I. Prerequisites
 
-- Install Git;
-- Install Sourcetree, a graphical interface for Git;
-- Make sure to add the Git installation directory to the system environment variables when installing Git.
+- Install Git, and add the Git installation directory to the system environment variables during installation;
+- DotNet projects: install Visual Studio 2022, and the CodeMaid extension plugin is recommended for automatic code formatting;
+- Vue projects: install Visual Studio Code, and the Prettier - Code formatter extension plugin is recommended for automatic code formatting.
 
-<details>
-<summary>1. DotNet Project</summary>
-
-To begin with, you should install Visual Studio 2022 and the CodeMaid extension plugin, which can automatically format your code. If you are developing new features, it is highly recommended that you add a file header, as this will be of great benefit when modifying code files later on or working on collaborative projects. Here is an example of what this header could look like:
+Add the following file header to new source files:
 
 ```csharp
-#region <<Copyright and Version>>
-
-// ----------------------------------------------------------------
-// Copyright ©2024 ZhaiFanhua All Rights Reserved.
+// Copyright (c) 2021-Present XiHanFun and contributors.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
-// FileName:ChatHub
-// Guid:ee669dee-30c7-4d21-8eb4-f24d8dc0f44c
-// Author:zhaifanhua
-// Email:me@zhaifanhua.com
-// CreatedTime:2024-04-16 上午 03:59:25
-// ----------------------------------------------------------------
-
-#endregion <<Copyright and Version>>
 ```
-
-Now, let's talk about how to create and modify default templates.
-
-#### 1. Creating a New Template File
-
-> Note: The environment I am using is Visual Studio 2022. The following templates are suitable for C#10 new syntax. For old syntax and old versions, similar methods can be used to modify them.
-
-Create the following three files in an empty directory:
-
-Class.cs
-
-```csharp
-#region <<Copyright and Version>>
-
-// ----------------------------------------------------------------
-// Copyright ©$year$ ZhaiFanhua All Rights Reserved.
-// Licensed under the MIT License. See LICENSE in the project root for license information.
-// FileName:$safeitemname$
-// Guid:$guid1$
-// Author:$username$
-// Email:me@zhaifanhua.com
-// CreateTime:$time$
-// ----------------------------------------------------------------
-
-#endregion <<Copyright and Version>>
-
-namespace $rootnamespace$;
-
-/// <summary>
-/// $safeitemrootname$
-/// </summary>
-public class $safeitemrootname$
-{
-}
-```
-
-Controller.cs `Here, only ApiController is used.`
-
-```csharp
-#region <<Copyright and Version>>
-
-// ----------------------------------------------------------------
-// Copyright ©$year$ ZhaiFanhua All Rights Reserved.
-// Licensed under the MIT License. See LICENSE in the project root for license information.
-// FileName:$safeitemname$
-// Guid:$guid1$
-// Author:$username$
-// Email:me@zhaifanhua.com
-// CreateTime:$time$
-// ----------------------------------------------------------------
-
-#endregion <<Copyright and Version>>
-
-namespace $rootnamespace$;
-
-/// <summary>
-/// $safeitemrootname$
-/// </summary>
-[Route("api/[controller]")]
-[ApiController]
-public class $safeitemname$ : ControllerBase
-{
-}
-```
-
-Interface.cs
-
-```csharp
-#region <<Copyright and Version>>
-
-// ----------------------------------------------------------------
-// Copyright ©$year$ ZhaiFanhua All Rights Reserved.
-// Licensed under the MIT License. See LICENSE in the project root for license information.
-// FileName:$safeitemname$
-// Guid:$guid1$
-// Author:$username$
-// Email:me@zhaifanhua.com
-// CreateTime:$time$
-// ----------------------------------------------------------------
-
-#endregion <<Copyright and Version>>
-
-namespace $rootnamespace$;
-
-/// <summary>
-/// $safeitemrootname$
-/// </summary>
-public interface $safeitemrootname$
-{
-}
-```
-
-#### 2. Finding the Template Directory and Copying Files
-
-For example, if you have installed Visual Studio 2022 in the C drive, the corresponding template directory would be:
-
-Class
-
-> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\CSharp\Code\2052\Class
-> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Code\1033\Class
-
-Interface
-
-> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\CSharp\Code\2052\Interface
-> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Code\1033\Interface
-
-Controller
-
-> C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ItemTemplates\AspNetCore\Web\ASP.NET\1033\WebApiEmptyController
-
-</details>
-
-<details>
-<summary>2. Vue Project</summary>
-
-Firstly, you should install Visual Studio Code and the Prettier - Code formatter extension plugin, which can automatically format your code.
-
-</details>
 
 ## II. Contributing Code
 
@@ -168,22 +36,22 @@ If you want to develop your own project based on this project, it is best to cre
 
 ### 5. Commit
 
-Submit bugs to your local repository.
+Commit your changes to your local repository.
 
 Here are the Git commit message prefix rules:
 
-| prefix | description | example |
-| --- | --- | --- |
-| **feat** | New Feature | `feat: add login page` |
-| **fix** | Bug fixes | `fix: resolve issue with user authentication` |
-| **docs** | Document Modifications | `docs: update README with installation instructions` |
-| **style** | Code style (changes that don't affect functionality) | `style: format code with Prettier` |
-| **refactor** | Code refactoring (no features and fixes) | `refactor: refactor the authentication module` |
-| **perf** | Performance optimization | `perf: optimize image loading speed` |
-| **test** | Add or modify tests | `test: add unit tests for login functionality` |
-| **chore** | Miscellaneous work (build tasks, tool configurations, etc.) | `chore: update dependencies` |
-| **there** | Continuous integration related modifications | `ci: update GitHub Actions workflow` |
-| **build** | Build-related changes (affecting the build system or dependencies) | `build: update webpack config for production build` |
+| prefix       | description                                                          | example                                              |
+| ------------ | -------------------------------------------------------------------- | ---------------------------------------------------- |
+| **feat**     | New Feature                                                          | `feat: add login page`                               |
+| **fix**      | Bug fixes                                                            | `fix: resolve issue with user authentication`        |
+| **docs**     | Document Modifications                                               | `docs: update README with installation instructions` |
+| **style**    | Code style (changes that don't affect functionality)                 | `style: format code with Prettier`                   |
+| **refactor** | Code refactoring (no features and fixes)                             | `refactor: refactor the authentication module`       |
+| **perf**     | Performance optimization                                             | `perf: optimize image loading speed`                 |
+| **test**     | Add or modify tests                                                  | `test: add unit tests for login functionality`       |
+| **chore**    | Miscellaneous work (build tasks, tool configurations, etc.)          | `chore: update dependencies`                         |
+| **ci**       | Continuous integration related modifications                         | `ci: update GitHub Actions workflow`                 |
+| **build**    | Build-related changes (affecting the build system or dependencies)   | `build: update webpack config for production build`  |
 
 This approach makes it easy to clearly distinguish the purpose and use of each commit.
 
