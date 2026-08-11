@@ -1,6 +1,8 @@
-![logo](./assets/logo.png)
+![logo](https://raw.githubusercontent.com/XiHanFun/.github/main/assets/logo.png)
 
 [English](README.md)
+
+[曦寒懿官方交流群](https://qm.qq.com/q/qYp1Urv3z2) 462371834
 
 # 曦寒懿 开源社区
 
@@ -34,7 +36,7 @@
 - 尊重知识产权，不进行任何侵犯他人知识产权的行为。
 - 遵守开源协议和许可证，不进行任何违反开源协议和许可证的行为。
 - 协作和分享，鼓励和支持他人的贡献和参与。
-- [贡献者公约](CODE_OF_CONDUCT_cn.md)
+- [贡献者公约](https://github.com/XiHanFun/.github/blob/main/CODE_OF_CONDUCT_cn.md)
 
 ## 如何参与
 
@@ -44,11 +46,7 @@
 - 参加我们的线上和线下活动，分享您的经验和知识，结识志同道合的朋友。
 - 参与我们的开源项目，为项目做出贡献，提出改进建议和反馈。
 - 向我们提供您的意见和建议，帮助我们改进和完善社区。
-- [如何为项目贡献代码](CONTRIBUTING_cn.md)
-
-## 代码许可
-
-曦寒懿开放源代码社区的所有仓库必须使用 [MIT许可证](https://opensource.org/license/MIT) 授权。
+- [如何为项目贡献代码](https://github.com/XiHanFun/.github/blob/main/CONTRIBUTING_cn.md)
 
 ## 联系我们
 

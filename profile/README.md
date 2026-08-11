@@ -1,10 +1,12 @@
-![logo](./assets/logo.png)
+![logo](https://raw.githubusercontent.com/XiHanFun/.github/main/assets/logo.png)
 
 [中文](README_cn.md)
 
+[曦寒懿官方交流群](https://qm.qq.com/q/qYp1Urv3z2) 462371834
+
 # XiHanFun Open Source Organization
 
-Welcome to the XiHanFun Open Source Organization! We are a organization dedicated to promoting open source culture and technology, providing an open, friendly, inclusive, and collaborative environment for developers, designers, and technology enthusiasts.
+Welcome to the XiHanFun Open Source Organization! We are an organization dedicated to promoting open source culture and technology, providing an open, friendly, inclusive, and collaborative environment for developers, designers, and technology enthusiasts.
 
 ## Our Vision
 
@@ -34,7 +36,7 @@ To create an open, friendly, inclusive, and collaborative organization environme
 - Respect intellectual property rights and do not engage in any behavior that infringes on the intellectual property rights of others.
 - Follow open source licenses and agreements and do not engage in any behavior that violates open source licenses and agreements.
 - Encourage and support the contributions and participation of others through collaboration and sharing.
-- [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contributor Covenant Code of Conduct](https://github.com/XiHanFun/.github/blob/main/CODE_OF_CONDUCT.md)
 
 ## How to Get Involved
 
@@ -44,11 +46,7 @@ If you are interested in our organization, you are welcome to join us! You can p
 - Participate in our online and offline activities, share your experiences and knowledge, and meet like-minded friends.
 - Contribute to our open source projects, make suggestions for improvement, and provide feedback.
 - Provide your opinions and suggestions to help us improve and perfect the organization.
-- [How to Contribute Code to Project](CONTRIBUTING.md)
-
-## License
-
-All repository for XiHanFun open source organization must be licensed under [The MIT License](https://opensource.org/license/MIT) .
+- [How to Contribute Code to Project](https://github.com/XiHanFun/.github/blob/main/CONTRIBUTING.md)
 
 ## Contact Us
 
