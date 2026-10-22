@@ -1,59 +1,65 @@
-![logo](https://raw.githubusercontent.com/XiHanFun/.github/main/assets/logo.png)
+<div align="center">
 
-[English](README.md)
+<img src="https://raw.githubusercontent.com/XiHanFun/.github/main/assets/logo.png" width="96" alt="曦寒懿" />
 
-[曦寒懿官方交流群](https://qm.qq.com/q/qYp1Urv3z2) 462371834
+<h1>曦寒懿 XiHanFun</h1>
 
-# 曦寒懿 开源社区
+<p><b>构建企业级 .NET + TS 开源生态</b></p>
 
-欢迎来到 曦寒懿 开源社区！我们是一个致力于推广开源文化和技术的社区，旨在为开发人员、设计师和技术爱好者提供一个开放、友好、包容和协作的环境。
+<p><a href="https://github.com/XiHanFun/.github/blob/main/profile/README.md">English</a> | <b>简体中文</b></p>
 
-## 我们的愿景
+<p>
+  <a href="https://www.xihanfun.com"><img alt="生态官网" src="https://img.shields.io/badge/%E7%94%9F%E6%80%81%E5%AE%98%E7%BD%91-www.xihanfun.com-7c3aed?style=for-the-badge" /></a>
+  <a href="https://docs.xihanfun.com"><img alt="生态文档" src="https://img.shields.io/badge/%E7%94%9F%E6%80%81%E6%96%87%E6%A1%A3-docs.xihanfun.com-2496ED?style=for-the-badge" /></a>
+</p>
 
-我们的愿景是成为一个全球性的开源社区，为所有人提供学习、分享和贡献开源技术的机会和平台。我们希望通过开源的力量，促进技术的进步和社会的发展，让更多的人受益于开源文化和技术。
+<p>
+  <a href="https://basicapp.xihanfun.com"><img alt="在线体验" src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E4%BD%93%E9%AA%8C-basicapp.xihanfun.com-0f766e?style=flat-square" /></a>
+  <a href="https://qm.qq.com/q/qYp1Urv3z2"><img alt="QQ 群" src="https://img.shields.io/badge/QQ_%E7%BE%A4-462371834-EB1923?style=flat-square&logo=tencentqq&logoColor=white" /></a>
+</p>
 
-## 我们的价值观
+</div>
 
-我们的价值观是开放、友好、包容和协作。我们相信开源技术可以改变世界，我们相信每个人都有贡献开源技术的能力和机会，我们相信通过协作和分享可以创造更好的未来。
+主推产品是后端基座 XiHan.Framework、前端基座 XiHan.UI 与基础应用 XiHan.BasicApp，各自独立发布，组合起来就是一套开箱即用的中后台；打印、流程、表单、报表等设计器作为生态产品，可以嵌进任何前端项目。
 
-## 我们的活动
+[生态官网](https://www.xihanfun.com)介绍各产品的定位、能力与版本方案；[生态文档](https://docs.xihanfun.com)提供生态总览、跨仓快速上手与选型指引；每个产品另有自己的文档站。
 
-我们的活动包括但不限于以下内容：
+## 主推产品
 
-- 组织线上和线下的技术分享会和研讨会，让开发人员和技术爱好者分享他们的经验和知识。
-- 组织开源项目的贡献者和用户交流会，让他们交流项目的最新进展和使用心得。
-- 组织开源项目的代码贡献活动和社区贡献活动，鼓励更多人参与到开源项目的开发和维护中来。
-- 组织开源文化和技术的推广活动，让更多人了解和认识开源文化和技术。
-- 组织其他与开源文化和技术相关的活动，如黑客马拉松、代码大赛等。
+后端基座、前端基座与基础应用各管一层，可以单独引用，也能组合成一套完整的中后台。
 
-## 我们的行为准则
+| 项目 | 简介 |
+| :-- | :-- |
+| **[XiHan.Framework](https://github.com/XiHanFun/XiHan.Framework)**<br>后端基座<br><a href="https://www.nuget.org/packages?q=XiHan.Framework"><img alt="NuGet" src="https://img.shields.io/nuget/v/XiHan.Framework.Core?style=flat-square&logo=nuget&logoColor=white&label=NuGet&color=004880" /></a> | **快速、轻量、高效、用心的 .NET 现代模块化开发框架**<br>模块按依赖图装配，应用服务经动态 API 直接暴露为接口；多租户、工作流、事件总线与 AI 集成开箱可用，优先使用 .NET 原生能力。<br>[文档站](https://framework.docs.xihanfun.com) |
+| **[XiHan.UI](https://github.com/XiHanFun/XiHan.UI)**<br>前端基座<br><a href="https://www.npmjs.com/package/@xihan-ui/vue"><img alt="npm" src="https://img.shields.io/npm/v/@xihan-ui/vue?style=flat-square&logo=npm&logoColor=white&label=npm&color=cb3837" /></a> | **快速、轻量、高效、用心的框架无关 Headless UI 组件库**<br>状态机与无障碍逻辑沉在无头内核，Vue、React 与 Web Components 三套适配器共用同一份行为；基础组件与 AI 组件覆盖从中后台到 AI 对话的界面。<br>[文档站](https://ui.docs.xihanfun.com) |
+| **[XiHan.BasicApp](https://github.com/XiHanFun/XiHan.BasicApp)**<br>基础应用<br><a href="https://github.com/XiHanFun/XiHan.BasicApp/releases"><img alt="Release" src="https://img.shields.io/github/v/release/XiHanFun/XiHan.BasicApp?style=flat-square&logo=github&label=Release&color=1f6feb" /></a> | **基于 XiHan.Framework 和 XiHan.UI 的超高颜值通用中后台内核**<br>RBAC + 数据范围 + 字段脱敏的权限体系、多租户隔离、代码生成、实时通信与 AI 能力开箱即用，备好数据库后前后端各一条命令就能跑起来。<br>[文档站](https://basicapp.docs.xihanfun.com) · [在线体验](https://basicapp.xihanfun.com) |
 
-为了营造一个开放、友好、包容和协作的社区环境，我们制定了以下行为准则：
+## 生态产品
 
-- 尊重他人，不进行任何形式的歧视、骚扰或攻击。
-- 尊重他人的意见和观点，不进行恶意的言语攻击或人身攻击。
-- 遵守社区规则和标准，不进行任何违法或违反道德规范的行为。
-- 尊重知识产权，不进行任何侵犯他人知识产权的行为。
-- 遵守开源协议和许可证，不进行任何违反开源协议和许可证的行为。
-- 协作和分享，鼓励和支持他人的贡献和参与。
-- [贡献者公约](https://github.com/XiHanFun/.github/blob/main/CODE_OF_CONDUCT_cn.md)
+设计器以原生 Web Components 交付，不绑定前端框架，Vue、React、Angular 或不使用框架的页面都能直接使用。运行时不引入第三方包；模板只是 JSON，数据、存储与权限都经回调交给使用方。
 
-## 如何参与
+| 项目 | 简介 |
+| :-- | :-- |
+| **[XiHan.PrintDesigner](https://github.com/XiHanFun/XiHan.PrintDesigner)**<br>打印设计器<br>`@xihan-print/*`<br><a href="https://www.npmjs.com/package/@xihan-print/designer"><img alt="npm" src="https://img.shields.io/npm/v/@xihan-print/designer?style=flat-square&logo=npm&logoColor=white&label=npm&color=cb3837" /></a> | **快速、轻量、高效、用心的框架无关打印设计器**<br>可视化设计打印模板，在浏览器里分页预览与打印；配合本地打印客户端，可以静默直打。<br>[文档站](https://print.docs.xihanfun.com) |
+| **[XiHan.FlowDesigner](https://github.com/XiHanFun/XiHan.FlowDesigner)**<br>流程设计器<br>`@xihan-flow/*`<br><a href="https://www.npmjs.com/package/@xihan-flow/designer"><img alt="npm" src="https://img.shields.io/npm/v/@xihan-flow/designer?style=flat-square&logo=npm&logoColor=white&label=npm&color=cb3837" /></a> | **快速、轻量、高效、用心的框架无关流程设计器**<br>可视化编排流程图与审批流，产出与流程引擎无关的流程定义，由使用方对接自己的引擎。<br>[文档站](https://flow.docs.xihanfun.com) |
+| **[XiHan.FormDesigner](https://github.com/XiHanFun/XiHan.FormDesigner)**<br>表单设计器<br>`@xihan-form/*`<br><a href="https://www.npmjs.com/package/@xihan-form/designer"><img alt="npm" src="https://img.shields.io/npm/v/@xihan-form/designer?style=flat-square&logo=npm&logoColor=white&label=npm&color=cb3837" /></a> | **快速、轻量、高效、用心的框架无关表单设计器**<br>可视化搭建表单，同一份 JSON 定义既驱动设计器，也驱动业务页面里的表单渲染。<br>[文档站](https://form.docs.xihanfun.com) |
+| **[XiHan.ReportDesigner](https://github.com/XiHanFun/XiHan.ReportDesigner)**<br>报表设计器<br>`@xihan-report/*`<br><a href="https://www.npmjs.com/package/@xihan-report/designer"><img alt="npm" src="https://img.shields.io/npm/v/@xihan-report/designer?style=flat-square&logo=npm&logoColor=white&label=npm&color=cb3837" /></a> | **快速、轻量、高效、用心的框架无关报表设计器**<br>可视化设计数据报表与看板，数据由使用方通过回调提供，报表可以导出成 xlsx 工作表。<br>[文档站](https://report.docs.xihanfun.com) |
 
-如果您对我们的社区感兴趣，欢迎加入我们！您可以通过以下方式参与：
+## 从哪里开始
 
-- 加入我们的社区论坛或社交媒体群组，了解最新的社区活动和讨论。
-- 参加我们的线上和线下活动，分享您的经验和知识，结识志同道合的朋友。
-- 参与我们的开源项目，为项目做出贡献，提出改进建议和反馈。
-- 向我们提供您的意见和建议，帮助我们改进和完善社区。
-- [如何为项目贡献代码](https://github.com/XiHanFun/.github/blob/main/CONTRIBUTING_cn.md)
+BasicApp 的后端引用 Framework，前端引用 UI；设计器建立在 UI 之上。可以只取其中一层，也可以从完整的中后台起步。
 
-## 联系我们
+| 你的场景 | 从这里开始 |
+| :-- | :-- |
+| 只要后端能力，在现有 ASP.NET Core 项目里按需引用 NuGet 包 | [Framework 快速上手](https://framework.docs.xihanfun.com/quickstart) |
+| 只要前端组件，Vue、React 或原生自定义元素任选其一 | [UI 快速上手](https://ui.docs.xihanfun.com/quickstart) |
+| 要一套能跑的中后台，在权限、租户与审计之上直接写业务 | [BasicApp 快速开始](https://basicapp.docs.xihanfun.com/getting-started) · [在线体验](https://basicapp.xihanfun.com) |
+| 要在自己的页面里嵌打印、流程、表单或报表设计器 | [打印](https://print.docs.xihanfun.com/quickstart) · [流程](https://flow.docs.xihanfun.com/quickstart) · [表单](https://form.docs.xihanfun.com/quickstart) · [报表](https://report.docs.xihanfun.com/quickstart) |
+| 还在选型，想先看清各项目的关系 | [生态总览](https://docs.xihanfun.com/cosmos/ecosystem) |
 
-如果您有任何问题或建议，欢迎通过以下方式联系我们：
+## 参与与交流
 
-- 邮箱：me@xihanfun.com
-- 社区官网：https://www.xihanfun.com
-- 社区文档：https://docs.xihanfun.com
-
-感谢您的支持和参与，让我们一起推广开源文化和技术，创造更美好的未来！
+- 全部项目以 MIT 许可证开源，开源版完整可用、可以商用。
+- 代码在 [GitHub](https://github.com/XiHanFun)（主库）、[Gitee](https://gitee.com/XiHanFun) 与 [GitCode](https://gitcode.com/XiHanFun)（同步备库）三处托管，Issue 与 PR 在哪一处提都收得到。
+- 提交代码前请阅读[贡献指南](https://github.com/XiHanFun/.github/blob/main/CONTRIBUTING_cn.md)与[贡献者公约](https://github.com/XiHanFun/.github/blob/main/CODE_OF_CONDUCT_cn.md)。
+- QQ 群：[462371834](https://qm.qq.com/q/qYp1Urv3z2) · 邮箱：me@xihanfun.com

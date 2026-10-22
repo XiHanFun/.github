@@ -18,6 +18,8 @@ This repository holds the organization profile and the default community files f
 
 Documents are maintained in pairs; a file name ending with `_cn` is the Chinese version.
 
+The product list and taglines on the organization homepage follow the [website](https://www.xihanfun.com) and each product's README. They carry no version numbers or counts; versions come from dynamic badges. When a product is added or removed or its positioning changes, update both languages together.
+
 ## Contact Us
 
 - Email: me@xihanfun.com
