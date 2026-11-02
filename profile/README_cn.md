@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/XiHanFun/.github/main/assets/logo.png" width="96" alt="曦寒懿" />
+<img src="https://raw.githubusercontent.com/XiHanFun/.github/main/assets/banner_cn.png" alt="曦寒懿" />
 
 <h1>曦寒懿 XiHanFun</h1>
 

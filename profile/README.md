@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/XiHanFun/.github/main/assets/logo.png" width="96" alt="XiHanFun" />
+<img src="https://raw.githubusercontent.com/XiHanFun/.github/main/assets/banner.png" alt="XiHanFun" />
 
 <h1>XiHanFun</h1>
 

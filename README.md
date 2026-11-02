@@ -1,4 +1,4 @@
-![logo](./assets/logo.png)
+![XiHanFun](./assets/banner.png)
 
 [中文](README_cn.md)
 
@@ -12,7 +12,7 @@ This repository holds the organization profile and the default community files f
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Default code of conduct              |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md)       | Default contributing guide           |
 | [`LICENSE`](LICENSE)                       | License of this repository           |
-| `assets/`                                  | Shared logo and favicon              |
+| `assets/`                                  | Shared banner, logo and favicon      |
 
 > Only `profile/README.md` is rendered on the organization homepage, so its cross-file links use absolute URLs.
 

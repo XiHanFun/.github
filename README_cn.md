@@ -1,4 +1,4 @@
-![logo](./assets/logo.png)
+![曦寒懿](./assets/banner_cn.png)
 
 [English](README.md)
 
@@ -12,7 +12,7 @@
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | 默认贡献者公约           |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md)       | 默认贡献指南             |
 | [`LICENSE`](LICENSE)                       | 本仓库许可证             |
-| `assets/`                                  | 共用的 Logo 与 favicon   |
+| `assets/`                                  | 共用的横幅、Logo 与 favicon |
 
 > 组织主页只渲染 `profile/README.md`，因此其中的跨文件链接使用绝对地址。
 
